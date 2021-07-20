@@ -28,6 +28,16 @@ document.getElementById("myButton").onclick = async function(){
   const data = await response.json();
   if (data.cod == "404"){
     document.getElementById("err").textContent = "Error, city not found!";
+    document.getElementById("time").style.display = "none";
+    document.getElementById("date").style.display = "none";
+    document.getElementById("city").style.display = "none";
+    document.getElementById("icon").style.display = "none";
+    document.getElementById("description").style.display = "none";
+    document.getElementById("temperature").style.display = "none";
+    document.getElementById("feelslike").style.display = "none";
+    document.getElementById("hightemp").style.display = "none";
+    document.getElementById("lowtemp").style.display = "none";
+    document.getElementById("windspeed").style.display = "none";
   }
   const city = data.name + ", " + data.sys.country;
   const temp = data.main.temp.toFixed();
