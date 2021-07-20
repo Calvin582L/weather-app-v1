@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="icons/favicon.png">
+    <title>WeatherMe</title>
+  </head>
+  <body>
+    <section class="banner" id="banner">
+      <div class ="content">
+      <strong><h1>Weather<strong>Me</strong><img src="icons/02d.png" alt='logo'></h1>
+      <h2>By: <strong>Calvin Liew</strong></h2>
+      <br>
+      <strong><label for="">Enter city:</label></strong><br>
+      <input type="text" id="myText"><br>
+      <button type="button" id="myButton">submit</button>
+      <br><br>
+        <div id="info" style="background-color:white; border-radius:35px;">
+          <p id="err"></p>
+          <p id="time"></p>
+          <p id="date"></p>
+          <p id="city"></p>
+          <p id="icon"></p>
+          <p id="description"></p>
+          <p id="temperature"></p>
+          <p id="feelslike"></p>
+          <p id="hightemp"></p>
+          <p id="lowtemp"></p>
+          <p id="windspeed"></p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

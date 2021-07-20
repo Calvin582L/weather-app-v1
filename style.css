@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.banner{
+  background-color: #800080;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .content
+{
+  max-width: 900px;
+  text-align: center;
+}
+
+.banner .content h1
+{
+  font-size: 3em;
+  color: #EDf5E1;
+}
+
+.banner .content h2
+{
+  font-size: 1.5em;
+  color: #EDf5E1;
+}
+
+.banner .content h2 strong
+{
+  font-size: 1em;
+  color: #EC6E4C;
+}
+
+.banner .content h1 strong
+{
+  font-size: 1.25em;
+  color: #EC6E4C;
+}
+
+.banner .content label
+{
+  font-size: 2em;
+  color: #EDf5E1;
+}
+
+.banner .content input
+{
+  width:100%;
+  border:2px solid #EDf5E1;
+  border-radius:4px;
+  margin:8px 0;
+  outline:none;
+  padding:8px;
+  box-sizing:border-box;
+  transition:.3s;
+}
+
+.banner .content input:focus
+{
+  border-color:#EDf5E1;
+  box-shadow:0 0 8px 0 #EDf5E1;
+}
+
+.banner .content button
+{
+  font-size: 1.5em;
+  color: #EDf5E1;
+  border: none;
+  background: #EC6E4C;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.banner .content button:hover
+{
+  letter-spacing: 6px;
+}
+
+.banner .content p
+{
+  font-size: 1.5em;
+  color: #EC6E4C;
+}
+
+@media (max-width: 991px){
+
+  header, header.sticky
+  {
+    padding: 10px 20px;
+    background: #282b30;
+  }
+
+  section 
+  {
+    padding: 20px;
+  }
+
+}
